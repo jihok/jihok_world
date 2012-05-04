@@ -1,5 +1,7 @@
 KcwWorld::Application.routes.draw do
 
+	resources :articles
+
   resources :categories
   resources :proverbs
   resources :photos
